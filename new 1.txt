@@ -1,0 +1,27 @@
+|-- your-project-folder
+    |-- src
+        |-- controllers
+            |-- smartRoomsController.js
+            |-- parkingController.js
+            |-- securityController.js
+            |-- attendanceController.js
+        |-- models
+            |-- smartRoomModel.js
+            |-- parkingModel.js
+            |-- securityModel.js
+            |-- attendanceModel.js
+        |-- routes
+            |-- smartRoomsRoutes.js
+            |-- parkingSpacesRoutes.js
+            |-- reservationsRoutes.js 
+            |-- usersRoutes.js
+        |-- middleware
+            |-- authenticationMiddleware.js
+            |-- loggingMiddleware.js
+        |-- config
+            |-- databaseConfig.js
+            |-- environmentConfig.js
+        |-- app.js
+    |-- package.json
+    |-- .gitignore
+    |-- README.md

@@ -1,0 +1,23 @@
+const env = require("dotenv").config();
+const {DB_URL,
+SECRET_KEY,
+SECRET_REFRESH_KEY,
+DB_USERNAME,
+DB_PASSWORD,
+APP_PORT,
+ORIGIN,
+HASH_SECRET,
+PEPPER_SECRET} = process.env
+const  e = {
+  DB_URL,
+  SECRET_KEY,
+  SECRET_REFRESH_KEY,
+  DB_USERNAME,
+  DB_PASSWORD,
+  APP_PORT,
+  ORIGIN,
+  HASH_SECRET,
+  PEPPER_SECRET
+}
+
+module.exports = e
