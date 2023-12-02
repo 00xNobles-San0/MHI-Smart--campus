@@ -3,28 +3,43 @@ const env = require('./env');
 
 
 async function connectToDatabase() {
-  try {
-    const conn = await mongoose.connect(env.DB_URL, { useNewUrlParser: true, useUnifiedTopology: true });
-    return conn
-  } catch (error) {
-    console.error('Error connecting to the database:', error);
-    throw error;
-  }
+  return new Promise((resolve, reject) => {
+    try {
+      const conn = mongoose.createConnection(env.DB_URL);
+      
+      conn.on('connected', () => {
+        resolve(conn);
+      });
+
+      conn.on('error', (err) => {
+        console.error('Error connecting to the database:', err);
+        reject(err);
+      });
+    } catch (error) {
+      console.error('Error creating connection:', error);
+      reject(error);
+    }
+  });
 }
-// Connection event
-mongoose.connection.on('connected', () => {
-  console.log('Mongoose connected to the database');
-});
-
-// Disconnection event
-mongoose.connection.on('disconnected', () => {
-  console.log('Mongoose disconnected from the database');
-});
-
-// Error event
-mongoose.connection.on('error', (err) => {
-  console.error('Mongoose connection error:', err);
-});
 
 
-module.exports = connectToDatabase ;
+
+// Function to disconnect from the database
+async function disconnectFromDatabase(conn) {
+  return new Promise((resolve, reject) => {
+    try {
+      conn.on('disconnected', () => {
+        resolve();
+      });
+
+      conn.close();
+    } catch (error) {
+      console.error('Error disconnecting from the database:', error);
+      reject(error);
+    }
+  });
+}
+
+
+
+module.exports = {connectToDatabase,disconnectFromDatabase} ;

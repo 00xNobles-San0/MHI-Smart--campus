@@ -1,0 +1,52 @@
+[
+  {
+    "location": "Parking Lot B",
+    "starttime": "2023-12-01T08:00:00Z",
+    "endtime": "2023-12-01T18:00:00Z"
+  },
+  {
+    "location": "Parking Lot A",
+    "starttime": "2023-12-02T10:00:00Z",
+    "endtime": "2023-12-02T17:00:00Z"
+  },
+  {
+    "location": "Parking Lot C",
+    "starttime": "2023-12-03T12:00:00Z",
+    "endtime": "2023-12-03T20:00:00Z"
+  },
+  {
+    "location": "Parking Lot D",
+    "starttime": "2023-12-04T09:00:00Z",
+    "endtime": "2023-12-04T15:00:00Z"
+  },
+  {
+    "location": "Parking Lot E",
+    "starttime": "2023-12-05T14:00:00Z",
+    "endtime": "2023-12-05T22:00:00Z"
+  },
+  {
+    "location": "Parking Lot F",
+    "starttime": "2023-12-06T11:00:00Z",
+    "endtime": "2023-12-06T18:00:00Z"
+  },
+  {
+    "location": "Parking Lot G",
+    "starttime": "2023-12-07T13:00:00Z",
+    "endtime": "2023-12-07T21:00:00Z"
+  },
+  {
+    "location": "Parking Lot H",
+    "starttime": "2023-12-08T16:00:00Z",
+    "endtime": "2023-12-08T23:00:00Z"
+  },
+  {
+    "location": "Parking Lot I",
+    "starttime": "2023-12-09T10:00:00Z",
+    "endtime": "2023-12-09T16:00:00Z"
+  },
+  {
+    "location": "Parking Lot J",
+    "starttime": "2023-12-10T12:00:00Z",
+    "endtime": "2023-12-10T19:00:00Z"
+  }
+]

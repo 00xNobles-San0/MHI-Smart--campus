@@ -9,6 +9,6 @@ const routers = express.Router();
 
 routers.use("/parking-spaces",parkingRoutes)
 routers.use("/reservation",reservationsRoutes)
-routers.use("/user",usersRoutes)
+routers.use("/users",usersRoutes)
 
 module.exports = routers

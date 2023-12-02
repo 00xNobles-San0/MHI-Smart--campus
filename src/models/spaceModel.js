@@ -16,6 +16,7 @@ const ParkingSpacesSchema = new mongoose.Schema({
   },
 });
 
-const parkingSpaces = mongoose.model('parkingSpaces', ParkingSpacesSchema);
-
+const parkingSpaces = (conn)=>{
+  return conn.model('parkingSpaces', ParkingSpacesSchema)
+};
 module.exports = parkingSpaces;

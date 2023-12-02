@@ -1,0 +1,92 @@
+[
+  {
+    "name": "John Doe",
+    "username": "john.doe",
+    "password": "password123",
+    "role": "admin",
+    "email": "john.doe@example.com",
+    "phonenumber": "123-456-7890",
+    "reservations": []
+  },
+  {
+    "name": "Jane Smith",
+    "username": "jane.smith",
+    "password": "pass456",
+    "role": "doctor",
+    "email": "jane.smith@example.com",
+    "phonenumber": "987-654-3210",
+    "reservations": []
+  },
+  {
+    "name": "Bob Johnson",
+    "username": "bob.johnson",
+    "password": "securePwd",
+    "role": "student",
+    "email": "bob.johnson@example.com",
+    "phonenumber": "555-123-4567",
+    "reservations": []
+  },
+  {
+    "name": "Alice Brown",
+    "username": "alice.brown",
+    "password": "pass123",
+    "role": "admin",
+    "email": "alice.brown@example.com",
+    "phonenumber": "789-456-1230",
+    "reservations": []
+  },
+  {
+    "name": "David White",
+    "username": "david.white",
+    "password": "pwd456",
+    "role": "doctor",
+    "email": "david.white@example.com",
+    "phonenumber": "333-999-0000",
+    "reservations": []
+  },
+  {
+    "name": "Eva Green",
+    "username": "eva.green",
+    "password": "greenPwd",
+    "role": "student",
+    "email": "eva.green@example.com",
+    "phonenumber": "123-987-6543",
+    "reservations": []
+  },
+  {
+    "name": "Charlie Black",
+    "username": "charlie.black",
+    "password": "pwd789",
+    "role": "admin",
+    "email": "charlie.black@example.com",
+    "phonenumber": "555-789-1234",
+    "reservations": []
+  },
+  {
+    "name": "Grace Taylor",
+    "username": "grace.taylor",
+    "password": "taylorPwd",
+    "role": "doctor",
+    "email": "grace.taylor@example.com",
+    "phonenumber": "777-888-9999",
+    "reservations": []
+  },
+  {
+    "name": "Frank Miller",
+    "username": "frank.miller",
+    "password": "pass789",
+    "role": "student",
+    "email": "frank.miller@example.com",
+    "phonenumber": "111-222-3333",
+    "reservations": []
+  },
+  {
+    "name": "Sophie Davis",
+    "username": "sophie.davis",
+    "password": "sophiePwd",
+    "role": "admin",
+    "email": "sophie.davis@example.com",
+    "phonenumber": "999-888-7777",
+    "reservations": []
+  }
+]

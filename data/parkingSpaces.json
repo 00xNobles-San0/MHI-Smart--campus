@@ -1,0 +1,52 @@
+[
+  {
+    "isOccupied": false,
+    "location": "Parking Lot A",
+    "type": "Regular"
+  },
+  {
+    "isOccupied": false,
+    "location": "Parking Lot B",
+    "type": "VIP"
+  },
+  {
+    "isOccupied": false,
+    "location": "Parking Lot C",
+    "type": "Student"
+  },
+  {
+    "isOccupied": false,
+    "location": "Parking Lot D",
+    "type": "Regular"
+  },
+  {
+    "isOccupied": false,
+    "location": "Parking Lot E",
+    "type": "VIP"
+  },
+  {
+    "isOccupied": false,
+    "location": "Parking Lot F",
+    "type": "Student"
+  },
+  {
+    "isOccupied": false,
+    "location": "Parking Lot G",
+    "type": "Regular"
+  },
+  {
+    "isOccupied": false,
+    "location": "Parking Lot H",
+    "type": "VIP"
+  },
+  {
+    "isOccupied": false,
+    "location": "Parking Lot I",
+    "type": "Student"
+  },
+  {
+    "isOccupied": false,
+    "location": "Parking Lot J",
+    "type": "Regular"
+  }
+]

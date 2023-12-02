@@ -19,6 +19,16 @@ router.get('/:key/:value', userController.getUserByKeyValue);
 // Route for user login
 router.post('/login', userController.login);
 
+
+// Route to generate an access token from a refresh token
+router.post('/generateAccessToken', userController.generateAccessToken);
+
+// Route to verify the validity of an access token
+router.post('/verifyAccessToken', userController.verifyTokenAccessToken);
+
+// Route to verify the validity of a refresh token
+router.post('/verifyRefreshToken', userController.verifyTokenRefreshToken);
+
 // Route to update a user by ID
 router.put('/:id', userController.updateUser);
 

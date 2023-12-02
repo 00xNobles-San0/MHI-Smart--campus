@@ -1,17 +1,20 @@
 const env = require("dotenv").config();
-const {DB_URL,
-SECRET_KEY,
-SECRET_REFRESH_KEY,
-DB_USERNAME,
-DB_PASSWORD,
-APP_PORT,
-ORIGIN,
-HASH_SECRET,
-PEPPER_SECRET} = process.env
-const  e = {
+const {
   DB_URL,
-  SECRET_KEY,
-  SECRET_REFRESH_KEY,
+  JWT_ACCESS_SECRET,
+  JWT_REFRESH_SECRET,
+  DB_USERNAME,
+  DB_PASSWORD,
+  APP_PORT,
+  ORIGIN,
+  HASH_SECRET,
+  PEPPER_SECRET
+} = process.env
+
+const e = {
+  DB_URL,
+  JWT_ACCESS_SECRET,
+  JWT_REFRESH_SECRET,
   DB_USERNAME,
   DB_PASSWORD,
   APP_PORT,
